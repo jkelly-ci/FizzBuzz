@@ -41,6 +41,8 @@ namespace FizzBuzz
 
                 txtOut.Text += s + System.Environment.NewLine;
             }
+
+            MessageBox.Show(txtOut.Text);
         }
     }
 }
